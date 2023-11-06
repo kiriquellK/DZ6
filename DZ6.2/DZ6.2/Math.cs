@@ -13,12 +13,12 @@
         }
         internal void Add()
         {
-            double resultAdd =_firstOperand + _secondOperand;
+            double resultAdd = _firstOperand + _secondOperand;
             Console.WriteLine($"Результат сложения:{resultAdd}");
         }
-        internal void Subtract() 
+        internal void Subtract()
         {
-            double resultSubtract=_firstOperand - _secondOperand;
+            double resultSubtract = _firstOperand - _secondOperand;
             Console.WriteLine($"Результат вычитания:{resultSubtract}");
         }
         internal void Multiply()
